@@ -1,0 +1,26 @@
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  margin: 2rem auto;
+  filter: drop-shadow(2px 4px 6px black);
+}
+#search-area-day,
+#search-area-month {
+  width: 40vw;
+  height: 10vh;
+  font-size: 2rem;
+  margin: 1.5rem auto;
+}
+.submit-button {
+  font-size: 2rem;
+  filter: drop-shadow(2px 2px 2px black);
+}
+.search-header {
+  font-size: 4rem;
+  margin: 1rem auto 2rem auto;
+  text-align: center;
+  animation: load 1000ms ease-out;
+  filter: drop-shadow(3px 5px 7px rgb(255, 255, 255));
+}
